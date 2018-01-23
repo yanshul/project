@@ -17,5 +17,7 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-    return "yanshul sharma";
+    return view('textArea');
 });
+
+Route::get('/categories','HomeController@Categories');
